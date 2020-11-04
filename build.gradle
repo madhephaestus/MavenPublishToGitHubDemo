@@ -12,8 +12,6 @@ plugins {
 	id("maven-publish")
 	
 }
-File file = new File(System.getProperty("user.home")+"/.package-github.token")
-String token =file.text
 
 repositories {
     // Use jcenter for resolving dependencies.
